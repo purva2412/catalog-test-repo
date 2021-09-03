@@ -1,8 +1,6 @@
 {
-	"intro": {
-		"title": "Openlabs-Guide",
-		"content": "intro.md"
-	},
+	"title": "Openlabs-Guide",
+	"description": "description.md",
 	"tasks": [{
 			"title": "Build and Integrate APIs",
 			"content": "task1.md"
