@@ -6,5 +6,7 @@ Air
     You will be logged in as the `yahoo` operating system user. Your password is `yahoo_password`.  
     **Tip:** For the best viewing experience, set up your browser as follows:
     *   Maximize your browser.
-    *   On the Skytap Check toolbar, click the **Fit to window** icon. ![image_01](images/scenary.jpg)
-    *   Optional: On the Skytap Check toolbar, click the **Change Resolution** icon. Select a smaller screen resolution than you typically use so that you can see the entire screen in your browser. ![image_01](images/scenary.jpg)
+    *   On the Skytap Check toolbar, click the **Fit to window** icon. 
+    * ![image_02](images/image02.jpg)
+    *   Optional: On the Skytap Check toolbar, click the **Change Resolution** icon. Select a smaller screen resolution than you typically use so that you can see the entire screen in your browser. 
+    * ![image_02](images/image02.jpg)
