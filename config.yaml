@@ -1,8 +1,15 @@
 {
-  "intro": {"title":"Openlabs Guide",content:"intro.md"},
-  "tasks":
-    [
-      { "title": "Build and Integrate APIs", "content": "task1.md" },
-      { "title": "Openlabs Cheatsheet", "content": "task2.md" }
-    ]
+	"intro": {
+		"title": "Openlabs Guide",
+		"content": "intro.md"
+	},
+	"tasks": [{
+			"title": "Build and Integrate APIs",
+			"content": "task1.md"
+		},
+		{
+			"title": "Openlabs Cheatsheet",
+			"content": "task2.md"
+		}
+	]
 }
