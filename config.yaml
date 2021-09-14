@@ -1,7 +1,38 @@
-title: Openlabs Guide
-description: description.md
-tasks:
-  - title: Build and Integrate APIs
-    content: task1.md
-  - title: Openlabs Cheatsheet
-    content: task2.md
+name: MariaDB Operator
+description: MariaDB Operator
+logo: _images/mariadb-logo-3.png
+license: MIT
+duration: 1 hour
+categories:
+    - Database
+intro: intro.md
+commands:
+    - description: Install Operator
+      exec: kubectl create -f https://operatorhub.io/install/mariadb-operator-app.yaml
+environment:
+    terminal: true
+    showide: true
+    showdashboard: true
+    dashboards:
+        - name: Placeholder Tab
+          url: '##DNS.host##/app'
+backend:
+    credits:
+        program: prg-name
+        unitsPerHour: 10
+    services:
+        - ibm
+          - openshift
+        - aws
+          - rds
+tileInfo:
+    - title: MariaDB Operator installation verification
+      description:
+          Learn how to verify that the MariaDB Operator has been properly installed
+          in the namespace.
+      duration: 10 min
+      content: operator-status.md
+    - title: MariaDB Instance creation
+      description: Learn how to create Instance of MariaDB operator
+      duration: 10 min
+      content: create-instance.md
