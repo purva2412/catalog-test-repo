@@ -1,0 +1,80 @@
+{
+   "name":"MariaDB Operator Tutorial",
+   "appLayout":"accordion",
+   "appTheme":"g90",
+   "footer":"footer.md",
+   "tutorials":[
+      
+       {
+         "description":"Learn how to verify that the MariaDB Operator has been properly installed in the namespace.",
+         "duration":"10 min",
+         "tutorial_name":"operator-status.md",
+         "title":"1. MariaDB Operator installation verification"
+      },	   
+      
+      {
+         "description":"Learn how to create Instance of MariaDB operator",
+         "duration":"10 min",
+         "tutorial_name":"create-instance.md",
+         "title":"2. MariaDB Instance creation"
+      },
+	  {
+         "description":"Learn how to access MariaDB Database and create table inside database.",
+         "duration":"10 min",
+         "tutorial_name":"access-database.md",
+         "title":"3. MariaDB Database Access and table creation inside database."
+      },
+      {
+         "description":"Sample application using MariaDB",
+         "duration":"10 min",
+         "tutorial_name":"contacts-application.md",
+         "title":"4: MariaDB Sample Application"
+      },
+      {
+         "description":"Learn how to schedule backup for MariaDB Server.",
+         "duration":"10 min",
+         "tutorial_name":"backup.md",
+         "title":"5. Backup for MariaDB Server"
+      },
+      {
+         "description":"Learn how to enable monitoring service for MariaDB.",
+         "duration":"30 min",
+         "tutorial_name":"monitoring.md",
+         "title":"6. Enable Monitoring for MariaDB"
+      },
+	  
+      {
+         "description":"Learn how to create Prometheus Operator and deploy Prometheus Server and ServiceMonitor",
+         "duration":"30 min",
+         "tutorial_name":"prometheus-operator.md",
+         "title":"7. Create Prometheus Operator"
+      },
+	  {
+         "description":"Learn how to Install Grafana Operator and Deploy Grafana Server Instance, Grafana Data Source and Grafana Dashboard",
+         "duration":"30 min",
+         "tutorial_name":"grafana-operator.md",
+         "title":"8. Create Grafana Operator"
+      },
+	{
+         "description":"Learn how to access Grafana Dashboard and configure it to show metrics.",
+         "duration":"30 min",
+         "tutorial_name":"access-grafana-dashboard.md",
+         "title":"9. Grafana Dashboard"
+      },
+       	   
+	  {
+         "description":"Learn how to cleanup the MariaDB Operator",
+         "duration":"10 min",
+         "tutorial_name":"cleanup.md",
+         "title":"10. MariaDB Operator cleanup"
+      }
+	
+   ],
+   "usefulLinks":[
+      {
+         "title":"MariaDB Operator",
+         "description":"MariaDB Operator ",
+         "url":"https://operatorhub.io/operator/mariadb-operator-app"
+      }
+   ]
+}
