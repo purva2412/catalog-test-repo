@@ -1,3 +1,4 @@
+
 name: MariaDB Operator
 description: MariaDB Operator
 logo: _images/mariadb-logo-3.png
@@ -36,3 +37,4 @@ tileInfo:
       description: Learn how to create Instance of MariaDB operator
       duration: 10 min
       content: create-instance.md
+
