@@ -7,6 +7,9 @@ duration: 1 hour
 categories:
     - Database
 intro: intro.md
+documentation: sample documentation
+type: TRIAL
+bannerimage: _attachments/ol-background.jpg
 commands:
     - description: Install Operator
       exec: kubectl create -f https://operatorhub.io/install/mariadb-operator-app.yaml
@@ -17,6 +20,8 @@ environment:
     dashboards:
         - name: Placeholder Tab
           url: '##DNS.host##/app'
+    tab_1:
+       -name: First Tab
 backend:
     credits:
         program: prg-name
@@ -26,6 +31,7 @@ backend:
           - openshift
         - aws
           - rds
+          
 tileInfo:
     - title: MariaDB Operator installation verification
       description:
